@@ -5,7 +5,7 @@ const app = express();
 
 
 
-var port  = process.env.PORT || 8080;
+var port  = process.env.PORT;
 app.listen(port, function() {
 });
 
